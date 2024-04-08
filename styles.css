@@ -86,7 +86,7 @@
   }
   
   #saiba-mais {
-    padding: 10%;
+    padding: 5%;
     margin: 0px auto;
     text-align: center;
   }
@@ -98,4 +98,8 @@
   
   a:hover {
     color: #b72b23;
+  }
+
+  * {
+    font-family: "DejaVu Sans", sans-serif;
   }
