@@ -1,0 +1,99 @@
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 2px;
+  }
+  
+  figure {
+    background: linear-gradient(to bottom, #1a1a1a 97%, #e3e3e3);
+    padding: 30px;
+    border-radius: 2px 2px 0 0;
+  }
+  
+  #img-div {
+    max-width: 100%;
+    margin: 0;
+    padding: 50px
+  }
+  
+  #img-caption {
+    text-align: center;
+    padding-top: 35px;
+    color: #D8C618;
+  }
+  
+  main {
+    background-color: #E8E8E8;
+    border-radius: 2px;
+    max-width: 95%;
+    margin: 50px auto;
+    color: #1a1a1a;
+  }
+  
+  ul {
+    padding: 0;  
+  }
+  
+  li {
+    list-style-type: none; /* Remove o marcador padrão */
+    position: relative; /* Permite posicionar a imagem */
+  
+    font-size: 18px;
+    padding: 20px 0;
+    margin: 0px 25% 0 25%;
+  }
+  
+  li::before {
+    content: ""; /* Adiciona conteúdo antes do li */
+    position: absolute; /* Posiciona absolutamente em relação ao li */
+    left: -30px; /* Posiciona à esquerda do li */
+    top: 50%; /* Centraliza verticalmente */
+    transform: translateY(-50%) scaleX(-1); /* Ajusta a posição vertical */
+    width: 20px; /* Largura da imagem */
+    height: 20px; /* Altura da imagem */
+    background-image: url('https://images.vexels.com/media/users/3/304041/isolated/preview/0194d43037b09403d44f96e1057f0f07-checkered-flag-filled-stroke.png');
+    background-size: cover; /* Ajusta o tamanho da imagem */
+  }
+  
+  #title, p {
+    text-align: center;
+    color: white;
+  }
+  
+  #title {
+    margin-top: 50px;
+  }
+  
+  html {
+    background-color: #b72b23;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  #frase-de-efeito {
+    text-align: left;
+    font-size: 18px;
+    color: #2a2a2a;
+    font-style: italic;
+    margin: 0 25% 0 25%;
+  
+  }
+  
+  #saiba-mais {
+    padding: 20px;
+    margin: 0px auto;
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #6a1a1a;
+  }
+  
+  a:hover {
+    color: #b72b23;
+  }
