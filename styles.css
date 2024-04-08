@@ -7,7 +7,6 @@
   }
   
   figure {
-    background: linear-gradient(to bottom, #1a1a1a 97%, #e3e3e3);
     padding: 30px;
     border-radius: 2px 2px 0 0;
   }
@@ -27,11 +26,11 @@
   }
   
   main {
-    background-color: #E8E8E8;
+    background-color: #1a1a1a;
     border-radius: 2px;
     max-width: 95%;
     margin: 50px auto;
-    color: #1a1a1a;
+    color: #e8e8e8;
   }
   
   ul {
@@ -44,7 +43,7 @@
   
     font-size: 16px;
     padding: 20px 0;
-    margin: 0px 25% 0 25%;
+    margin: 0px 20% 0 25%;
   }
   
   li::before {
@@ -57,6 +56,7 @@
     height: 25px; /* Altura da imagem */
     background-image: url('https://images.vexels.com/media/users/3/304041/isolated/preview/0194d43037b09403d44f96e1057f0f07-checkered-flag-filled-stroke.png');
     background-size: cover; /* Ajusta o tamanho da imagem */
+    filter: invert(100%);
   }
   
   #title, p {
@@ -79,15 +79,15 @@
   #frase-de-efeito {
     text-align: left;
     font-size: 16px;
-    color: #2a2a2a;
+    color: #5f5f5f;
     font-style: italic;
-    margin: 0 25% 0 25%;
+    margin: 2% 25% 0 25%;
   
   }
   
   #saiba-mais {
-    padding: 5%;
-    margin: 0px auto;
+    padding: 5% 0;
+    margin: 0;
     text-align: center;
   }
   
